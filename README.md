@@ -2,6 +2,12 @@
 
 A modern, user-friendly video compression application built with Vue.js that allows users to compress videos directly in their browser. The application includes a smart compression limit system that restricts users to 3 compressions per file to prevent excessive processing.
 
+## 🌐 Live Demo
+
+**[Try it now! 🚀](https://vaishak10.github.io/video-compressor/)**
+
+> The app is automatically deployed via GitHub Actions CI/CD pipeline
+
 ## ✨ Features
 
 - **🎬 Drag & Drop Interface**: Easily upload videos by dragging and dropping files
@@ -135,6 +141,29 @@ You can customize the Vite configuration in `vite.config.js`:
 - Add plugins
 - Configure build options
 - Set up aliases
+
+## 🚀 Deployment
+
+This project is automatically deployed to GitHub Pages using GitHub Actions.
+
+### CI/CD Pipeline
+
+Every push to the `main` branch triggers an automated deployment:
+1. **Build**: The app is built using Vite
+2. **Test**: Dependencies are installed and verified
+3. **Deploy**: The built files are deployed to GitHub Pages
+
+### Manual Deployment
+
+To deploy manually:
+```bash
+# Build the project
+npm run build
+
+# The dist/ folder contains the production-ready files
+```
+
+**Live URL**: https://vaishak10.github.io/video-compressor/
 
 ## 🤝 Contributing
 
